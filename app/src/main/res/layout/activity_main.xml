@@ -41,34 +41,35 @@
 
     </LinearLayout>
 
-        <TextView
-            android:id="@+id/playingNow"
-            style="@style/CategoryStyle"
-            android:background="@color/category_playingnow"
-            android:text="@string/category_playingNow" />
-
-        <TextView
-            android:id="@+id/songs"
-            style="@style/CategoryStyle"
-            android:background="@color/category_songs"
-            android:text="@string/category_songs" />
-
-        <TextView
-            android:id="@+id/albums"
-            style="@style/CategoryStyle"
-            android:background="@color/category_albums"
-            android:text="@string/category_albums" />
-
     <TextView
-        android:id="@+id/playlists"
+        android:id="@+id/playingNow"
         style="@style/CategoryStyle"
-        android:background="@color/category_playlists"
-        android:text="@string/category_playlists" />
+        android:background="@color/category_playingnow"
+        android:text="@string/category_playingNow" />
 
     <TextView
         android:id="@+id/artists"
         style="@style/CategoryStyle"
         android:background="@color/category_artists"
         android:text="@string/category_artists" />
+
+
+    <TextView
+        android:id="@+id/songs"
+        style="@style/CategoryStyle"
+        android:background="@color/category_songs"
+        android:text="@string/category_songs" />
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/CategoryStyle"
+        android:background="@color/category_albums"
+        android:text="@string/category_albums" />
+
+    <TextView
+        android:id="@+id/playlists"
+        style="@style/CategoryStyle"
+        android:background="@color/category_playlists"
+        android:text="@string/category_playlists" />
 
 </LinearLayout>

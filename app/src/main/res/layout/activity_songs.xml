@@ -11,7 +11,7 @@
         <TextView
             android:id="@+id/home"
             style="@style/HeadStyle"
-            android:background="@color/category_home"
+            android:background="@color/category_songs"
             android:text="@string/category_home" />
 
         <TextView
@@ -19,7 +19,7 @@
             style="@style/HeadStyle"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/category_home"
+            android:background="@color/category_songs"
             android:text="@string/category_player" />
 
     </LinearLayout>
