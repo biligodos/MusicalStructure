@@ -1,0 +1,25 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Musical Structure</string>
+
+    <!-- Category name for home [CHAR LIMIT=20] -->
+    <string name="category_home">Home</string>
+
+    <!-- Category name for player [CHAR LIMIT=20] -->
+    <string name="category_player">Player Buttons</string>
+
+    <!-- Category name for playing now [CHAR LIMIT=20] -->
+    <string name="category_playingNow">Playing Now</string>
+
+    <!-- Category name for the vocabulary words for songs [CHAR LIMIT=20] -->
+    <string name="category_songs">Songs</string>
+
+    <!-- Category name for the vocabulary words for albums [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for the vocabulary words for play lists [CHAR LIMIT=20] -->
+    <string name="category_playlists">Playlists</string>
+
+    <!-- Category name for the vocabulary words for artist lists [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+</resources>
