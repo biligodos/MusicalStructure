@@ -31,22 +31,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the category
-//        TextView mainScreen = (TextView) findViewById(R.id.mainScreen);
         TextView playingNow = (TextView) findViewById(R.id.playingNow);
         TextView songs = (TextView) findViewById(R.id.songs);
         TextView albums = (TextView) findViewById(R.id.albums);
         TextView playlists = (TextView) findViewById(R.id.playlists);
         TextView artists = (TextView) findViewById(R.id.artists);
 
-        // Set a click listener on that View
-//        mainScreen.setOnClickListener(new View.OnClickListener() {
-//            // The code in this method will be executed when the numbers View is clicked on.
-//            @Override
-//            public void onClick(View view) {
-//                Intent mainscreenIntent = new Intent(MainActivity.this, MainActivity.class);
-//                startActivity(mainscreenIntent);
-//            }
-//        });
         // Set a click listener on that View
         playingNow.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers View is clicked on.
