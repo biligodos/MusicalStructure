@@ -38,7 +38,11 @@
             android:layout_weight="1"
             android:background="@color/category_home"
             android:text="@string/category_player" />
-
+<!--
+    I will be using the android api public class MediaPlayer to define
+    the player buttons and play all the media files stored on the device.
+    https://developer.android.com/reference/android/media/MediaPlayer.html
+-->
     </LinearLayout>
 
     <TextView

@@ -25,5 +25,5 @@
     </LinearLayout>
     <TextView
         style="@style/TextViewStyle"
-        android:text="Here we are going to have a paying now information probably the name of the song, the album and the band or the singer"/>
+        android:text="Here we are going to have a paying now information probably the name of the song, the album and the band or the singer. I will be using the android class MediaMetadata.Builder to get info and build the albums list.    https://developer.android.com/reference/android/media/MediaMetadata.Builder.html"/>
 </LinearLayout>

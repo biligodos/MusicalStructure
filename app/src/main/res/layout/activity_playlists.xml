@@ -25,5 +25,5 @@
     </LinearLayout>
     <TextView
         style="@style/TextViewStyle"
-        android:text="Here we are going to have the playlists that are stored on the device"/>
+        android:text="Here we are going to have the playlists that are stored on the device."/>
 </LinearLayout>

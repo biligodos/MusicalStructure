@@ -25,5 +25,5 @@
     </LinearLayout>
     <TextView
         style="@style/TextViewStyle"
-        android:text="Here is going to be a list of the albums stored on the phone"/>
+        android:text="Here is going to be a list of the albums stored on the phone. I will be using the android class MediaMetadata to get info and build the albums list.    https://developer.android.com/reference/android/media/MediaMetadata.html"/>
 </LinearLayout>

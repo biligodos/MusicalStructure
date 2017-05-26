@@ -25,5 +25,5 @@
     </LinearLayout>
     <TextView
         style="@style/TextViewStyle"
-        android:text="Here we are going to have the list of the artists"/>
+        android:text="Here we are going to have the list of the artists. I will be using the android class MediaMetadata to get info and build the artists list.    https://developer.android.com/reference/android/media/MediaMetadata.html"/>
 </LinearLayout>
