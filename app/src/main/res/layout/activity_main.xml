@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
+        <Button
             android:id="@+id/home"
             style="@style/HeadStyle"
             android:background="@color/category_home"

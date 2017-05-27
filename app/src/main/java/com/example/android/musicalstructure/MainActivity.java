@@ -19,6 +19,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,12 +32,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the category
+        Button home = (Button) findViewById(R.id.home);
         TextView playingNow = (TextView) findViewById(R.id.playingNow);
         TextView songs = (TextView) findViewById(R.id.songs);
         TextView albums = (TextView) findViewById(R.id.albums);
         TextView playlists = (TextView) findViewById(R.id.playlists);
         TextView artists = (TextView) findViewById(R.id.artists);
 
+        // Set a click listener on that View
+        home.setOnClickListener(new Button.OnClickListener() {
+            // The code in this method will be executed when the numbers View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent playingnowIntent = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(playingnowIntent);
+            }
+        });
         // Set a click listener on that View
         playingNow.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers View is clicked on.
